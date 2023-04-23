@@ -18,8 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.description-block { text-align: center;
+
+.description-block { 
+    text-align: center;
 }
+
 }
 .todo-list {
     display: block;
@@ -97,7 +100,6 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
