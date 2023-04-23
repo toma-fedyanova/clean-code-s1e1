@@ -58,7 +58,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='todo-list__input'] {
+label[for="todo-list__input"] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -84,7 +84,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='todo-list__input'] {
+label[for="todo-list__input"] {
     display: block;
     margin: 0 0 20px;
 }
@@ -134,11 +134,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type="text"] {
     display:none;
 }
 
-ul li.todo-list__items_value input[type=text] {
+ul li.todo-list__items_value input[type="text"] {
     display:inline-block;
     width:224px;
 }
